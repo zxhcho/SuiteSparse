@@ -218,3 +218,4 @@ ssget/files/ssstats_old.csv
 # Do not ignore this file
 !.gitignore
 
+*nd6k.mtx
