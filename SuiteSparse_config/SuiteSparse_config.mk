@@ -251,8 +251,8 @@ SUITESPARSE_VERSION = 5.8.1
         GPU_CONFIG    = -DGPU_BLAS
         # For example, to compile CHOLMOD for 10 CPU cores when using the GPU:
         # GPU_CONFIG  = -DGPU_BLAS -DCHOLMOD_OMP_NUM_THREADS=10
-        CUDART_LIB    = $(CUDA_PATH)/lib64/libcudart.so
-        CUBLAS_LIB    = $(CUDA_PATH)/lib64/libcublas.so
+        CUDART_LIB    = $(CUDA_PATH)/lib/x86_64-linux-gnu/libcudart.so
+        CUBLAS_LIB    = $(CUDA_PATH)/lib/x86_64-linux-gnu/libcublas.so
         CUDA_INC_PATH = $(CUDA_PATH)/include/
         CUDA_INC      = -I$(CUDA_INC_PATH)
                 MAGMA_INC     = -I/opt/magma-2.4.0/include/
